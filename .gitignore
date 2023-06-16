@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### RSA ###
+eval $(ssh-agent -s)
+eval $(ssh-agent -s).pub

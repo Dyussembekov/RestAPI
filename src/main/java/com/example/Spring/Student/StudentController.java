@@ -23,3 +23,8 @@ public class StudentController {
         return studentService.getStudents();
     }
 }
+
+    public void registerNewStudent(Student student) {
+        studentService.addNewStudent()
+    }
+}
